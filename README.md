@@ -1,1 +1,3 @@
 # Breed_Classification
+
+This repo is just used to hold my notebook used to train an image classification model on data from [this](https://dockship.io/challenges/5fdcba715f392d4d66289d43/animal-breed-classification-ai-challenge/overview) challenge. The training data comprises 5890 images. So these were temporarily loaded into google drive, and this notebook was run on google colab to train a TensorFlow Hub model on the data. Following this, the model was saved and deployed using [this](https://github.com/jonathangosling/Breed_Classification_App) repo. Currently the app is still available for use by activating the AWS lambda function [here](https://xagehra4er2kkpsi75k2hsykfq0uqddn.lambda-url.us-east-1.on.aws/breed-classifier).
